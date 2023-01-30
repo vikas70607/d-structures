@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int search(int array[], int n, int x)
+int linearSearch(int array[], int n, int x)
 {
     for (int i = 0; i < n; i++)
         if (array[i] == x)
@@ -24,4 +24,14 @@ int binarySearch(int array[], int x, int low, int high)
     }
  
     return -1;
+}
+
+int main(){
+ int arr = {1,2,3,4,5,6,7,8};
+ 
+ printf("Linear Search \n");
+ printf("%d",linearSearch(arr,8,5);
+ printf("\nBinary Search \n");
+ printf("%d",binarySearch(arr,5,0,7);
+
 }
