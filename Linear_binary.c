@@ -27,7 +27,7 @@ int binarySearch(int array[], int x, int low, int high)
 }
 
 int main(){
- int arr = {1,2,3,4,5,6,7,8};
+ int arr[] = {1,2,3,4,5,6,7,8};
  
  printf("Linear Search \n");
  printf("%d",linearSearch(arr,8,5);
